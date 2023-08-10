@@ -54,9 +54,9 @@ function sendEmail(mailMessage, currentTime) {
   });
 
   let mailOptions = {
-    from: 'udit291096@gmail.com',
-    to: 'uditdj29@gmail.com',
-    bcc: 'bon30996@gmail.com,dishankl07@gmail.com,yashpals981@gmail.com,mehtasmit735@gmail.com,jainamshah.1105@gmail.com,savanimohit117@gmail.com,kvnsavaliya@gmail.com',
+    from: <email>,
+    to: <email>,
+    bcc: <email_in_string_comma_sep>,
     subject: `Vaccine Available - ${currentTime}`,
     text: mailMessage
   };
